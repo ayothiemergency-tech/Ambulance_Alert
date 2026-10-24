@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="360" viewBox="0 0 360 360" fill="none" stroke="#7aa7ff" stroke-width="1.4" stroke-linecap="square" stroke-linejoin="miter">
+  <g opacity=".5">
+    <path d="M0 60H70L90 80H170L190 60H260"/>
+    <path d="M30 0V40L50 60"/>
+    <path d="M120 0V30H200L220 50V120"/>
+    <path d="M300 0V90L320 110H360"/>
+    <path d="M0 180H60L80 200V260H140"/>
+    <path d="M150 140H240L260 160V230H330L350 250V360"/>
+    <path d="M60 360V310L80 290H200L220 310V360"/>
+    <path d="M250 300H300L320 320V360"/>
+    <path d="M0 300H30L50 320"/>
+    <path d="M180 200V260"/>
+    <path d="M110 110H170"/>
+  </g>
+  <g fill="#0a0e14" stroke-width="1.6" opacity=".8">
+    <circle cx="260" cy="60" r="4.5"/><circle cx="50" cy="60" r="4.5"/><circle cx="220" cy="120" r="4.5"/>
+    <circle cx="360" cy="110" r="4.5"/><circle cx="140" cy="260" r="4.5"/><circle cx="330" cy="230" r="4.5"/>
+    <circle cx="350" cy="360" r="4.5"/><circle cx="200" cy="290" r="4.5"/><circle cx="50" cy="320" r="4.5"/>
+    <circle cx="240" cy="140" r="4.5"/><circle cx="170" cy="110" r="4.5"/><circle cx="180" cy="260" r="4.5"/>
+  </g>
+  <g opacity=".45" stroke-width="1.2">
+    <rect x="250" y="170" width="46" height="22"/><path d="M256 170v-6M266 170v-6M276 170v-6M286 170v-6M256 192v6M266 192v6M276 192v6M286 192v6"/>
+    <path d="M95 30h6l3-6 5 12 4-12 3 6h6" />
+    <path d="M300 280l8 0 3-5 4 10 4-10 3 5h8"/>
+  </g>
+</svg>
