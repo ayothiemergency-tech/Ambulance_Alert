@@ -1,0 +1,30 @@
+{
+  "rules": {
+    "ambulance": {
+      "unit1": {
+        "telemetry": {
+          ".read": true,
+          ".write": true,
+          "lat": { ".validate": "newData.isNumber() || newData.val() == null" },
+          "lon": { ".validate": "newData.isNumber() || newData.val() == null" },
+          "heading": { ".validate": "newData.isNumber() || newData.val() == null" },
+          "speed": { ".validate": "newData.isNumber() || newData.val() == null" },
+          "sats": { ".validate": "newData.isNumber() || newData.val() == null" },
+          "gpsOk": { ".validate": "newData.isBoolean()" },
+          "motorOn": { ".validate": "newData.isBoolean()" },
+          "lastSeen": { ".validate": "newData.val() == now || newData.isNumber()" }
+        },
+        "diagnostics": { ".read": true, ".write": true },
+        "control": {
+          ".read": true,
+          ".write": true,
+          "emergency": { ".validate": "newData.isBoolean()" },
+          "selectedIndex": { ".validate": "newData.isNumber()" }
+        },
+        "hospitals": { ".read": true, ".write": true },
+        "nearbyVehicles": { ".read": true, ".write": true },
+        "direction": { ".read": true, ".write": true }
+      }
+    }
+  }
+}
